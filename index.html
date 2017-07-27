@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="style.css" type="text/css" rel="stylesheet">
     <title>Google</title>
     <meta charset="utf-8"/>
   </head>
   <body>
-    <div class="navigation">
-      <a href="https://mail.google.com/">Почта</a>
-      <a href="https://www.google.by/imghp?hl=ru&tab=wi&authuser=0">Картинки</a>
-      <a href="https://www.google.by/intl/ru/options/"><img src="p.txt.png"</a>
-      <a><img src="notifications.png"</a>
-      <a href="https://accounts.google.com/">Войти</a>
+    <div class="nav">
+        <a class="nav-item" id="sign-in" href="https://accounts.google.com/">Войти</a>
+        <a class="nav-item" href="https://www.google.by/intl/ru/options/"><img src="p.txt.png" height=20px width=20px></a>
+        <a class="nav-item" href="https://www.google.by/imghp?hl=ru&tab=wi&authuser=0">Картинки</a>
+        <a class="nav-item" href="https://mail.google.com/">Почта</a>
     </div>
-    <div class="logo">
+    <div id="logo">
       <img src="google_logo.png" alt="google logo">
-      </div>
+    </div>
     <div class="searchbar_buttons">
     <form>
-       <input type="text" name="searchbar"><br>
-       <input type="submit" name="search" value="Поиск в Google">
-       <input type="submit" name="lucky" value="Мне повезёт!">
+       <input type="text" name="searchbar" class="searchbar"><br>
+       <input type="submit" name="search" value="Поиск в Google" class="search">
+       <input type="submit" name="lucky" value="Мне повезёт!" class="search">
     </form>
     </div>
   </body>
-  <footer>
-    <div class="navigation_bottom">
-      <a href="https://www.google.by/intl/ru/ads/?fg=1">Реклама</a>
-      <a href="https://www.google.by/intl/ru/services/?fg=1#?modal_active=none">Для бизнеса</a>
-      <a href="https://www.google.by/intl/ru/about/">Всё о Google</a>
-      <a href="https://www.google.by/intl/ru/policies/privacy/?fg=1">Конфиденциальность</a>
-      <a href="https://www.google.by/intl/ru/policies/terms/regional.html">Условия</a>
-      <a href="https://www.google.by/preferences?hl=ru">Настройки</a>
-      <a href="https://www.google.com">Перейти на Google.com</a>
+  <footer class="footer">
+    <div>
+      <a class="link_left" href="https://www.google.by/intl/ru/ads/?fg=1">Реклама</a>
+      <a class="link_left" href="https://www.google.by/intl/ru/services/?fg=1#?modal_active=none">Для бизнеса</a>
+      <a class="link_left" href="https://www.google.by/intl/ru/about/">Всё о Google</a>
+      <a class="link_right" href="https://www.google.com">Перейти на Google.com</a>
+      <a class="link_right" href="https://www.google.by/preferences?hl=ru">Настройки</a>
+      <a class="link_right" href="https://www.google.by/intl/ru/policies/terms/regional.html">Условия</a>
+      <a class="link_right" href="https://www.google.by/intl/ru/policies/privacy/?fg=1">Конфиденциальность</a>
+
+
     </div>
   </footer>
 </html>
